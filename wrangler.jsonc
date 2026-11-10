@@ -3,5 +3,21 @@
   "main": "worker.mjs",
   "compatibility_date": "2026-11-10",
   "workers_dev": true,
-  "d1_databases": [{ "binding": "DB", "database_name": "kitchen-practice", "database_id": "bf93e44a-f682-4b5c-ab3d-991f76debd61" }]
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "kitchen-practice",
+      "database_id": "bf93e44a-f682-4b5c-ab3d-991f76debd61"
+    }
+  ],
+  "routes": [
+    {
+      "pattern": "nickburzo.com",
+      "custom_domain": true
+    },
+    {
+      "pattern": "www.nickburzo.com/*",
+      "zone_name": "nickburzo.com"
+    }
+  ]
 }

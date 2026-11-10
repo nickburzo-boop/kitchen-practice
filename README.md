@@ -2,7 +2,9 @@
 
 Guided home-cooking sessions for everyone, with custom recipes, six built-in practice paths, timers, temperature and texture observations, and private account notebooks.
 
-Live app: https://kitchen-practice.nickburzo.workers.dev/
+Live app: https://nickburzo.com/
+
+The www hostname redirects to the main domain. The workers.dev address remains available. Accounts use the same database; sign in again on the new domain. Guest-only notebooks stay with the domain where they were created.
 
 ## Architecture
 
